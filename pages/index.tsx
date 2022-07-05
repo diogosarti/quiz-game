@@ -4,7 +4,7 @@ import QuestaoModel from '../model/questao'
 import { useRouter } from 'next/router'
 
 
-const BASE_URL = 'https://quiz-game-steel.vercel.app'
+const BASE_URL = 'https://quiz-game-steel.vercel.app/api'
 
 export default function Home() {
   const router = useRouter()
