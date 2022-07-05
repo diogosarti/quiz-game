@@ -1,0 +1,20 @@
+.questao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1200px)
+{
+  .questao {
+    margin: 0;
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 720px)
+{
+  .questao {
+    transform: scale(0.7);
+  }
+}
